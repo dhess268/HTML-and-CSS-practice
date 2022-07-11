@@ -1,0 +1,283 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+header,
+main {
+  background: hsl(209, 19%, 56%);
+  color: white;
+}
+
+header {
+  height: 5rem;
+}
+a {
+  text-decoration: none;
+}
+header a {
+  color: white; 
+  font-weight: 500;
+  float: left;
+}
+
+.headerClasses {
+  line-height: 5rem;
+  margin-left: 3%;
+}
+
+.headerHireUs {
+  margin-left: 1%;
+  line-height: 5rem;
+}
+
+header i {
+  margin-left: 38%;
+  font-size: 3rem;
+  float: left;
+}
+div {
+  float: left;
+  margin-left: 40%;
+  background:hsl(209, 19%, 56%);
+  margin-top: 1.5rem;
+}
+.headerDonate {
+  background: white;
+  color: hsl(209, 19%, 56%);
+  text-align: center;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  transform: scaleY(1.5);
+  padding-top: 3rem;
+  letter-spacing: .5rem;
+}
+
+main p {
+  text-align: center;
+  width: 65%;
+  margin: 3rem auto;
+  font-size: 25px;
+  padding-top: 2rem;
+}
+
+main a {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  padding-bottom: 10rem;
+}
+
+.sec2 h2 {
+    text-align: center;
+    font-size: 40px;
+    transform: scaleY(1.3);
+    margin-top: 10rem;
+}
+
+.sec2 p {
+  width: 50%;
+  text-align: center;
+  color:hsl(209, 19%, 56%);
+  margin: 0 auto;
+  line-height: 2rem;
+  font-size: 25px;
+  margin-bottom: 10rem;
+}
+
+.sec3 {
+  height: 60rem;
+  padding: 10rem 10%;
+  background: lightgray;
+}
+
+.sec3 > section {
+  width: 50%;
+  float: left;
+  /* background: lightgray; */
+}
+
+.block {
+  background:hsl(209, 19%, 56%);
+  content: "\200B";
+  height: 18rem;
+  width: 60%;
+  margin-left: 20%;
+  float: left;
+}
+
+.sec3 h4,
+.sec3 p,
+.sec3 span {
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+
+.sec3 h4 {
+  font-size: 30px;
+  transform: scaleY(1.2 );
+  margin-bottom: .5rem; 
+}
+.sec3 p {
+  font-size: 25px;
+  width: 95%;
+}
+
+.sec3 span {
+  color:hsl(209, 19%, 56%);
+  border: gray solid 2px;
+  width: 25%;
+  margin-left: 38%;
+  padding: 1rem 5%;
+}
+
+.sec4 h2 {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 8rem;
+  transform: scaleY(1.3)
+}
+
+.sec4 p {
+  font-size: 30px;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-bottom: 5rem;
+  line-height: 2.5rem;
+}
+
+.sec4 span {
+  color:hsl(209, 19%, 56%);
+  border: gray solid 2px;
+  width: 25%;
+  margin-left: 42%;
+  padding: 1rem 5%;
+}
+
+.sec4 {
+  margin-bottom: 10rem;
+}
+
+.bottom * {
+  float: left;
+}
+
+.bottom {
+  background:hsl(214, 54%, 14%);
+  color: white;
+  padding-left: 3%;
+  margin-bottom: 0;
+  height: 23rem;
+}
+
+.bottom li {
+  display: inline-block;
+  list-style: none;
+} 
+
+.bottom i {
+  font-size: 3em;
+  display: block;
+}
+
+.bottom section {
+  width: 50%;
+  height: 15rem;
+}
+
+
+
+.bottom h6{ 
+  width: 100%;
+  font-size: 15px;
+  color: gray;
+  margin-bottom: 0;
+  margin-top: 1.5rem;
+}
+
+.footer-navigation {
+  margin-top: 2rem; 
+}
+
+.bottom i + i {
+  margin-left: 3%;
+}
+
+.bottom ul {
+  padding-left: 0;
+}
+
+.bottom a:visited {
+  color: white;
+}
+
+.bottom a {
+  color: white;
+  width: 7rem;
+}
+section.footer-right {
+  width: 15%;
+  margin-left: 35%;
+  margin-top: 2rem; 
+}
+.bottom h5 {
+  width: 100%;
+  font-size: 15px;
+  line-height: 1.5rem;
+  margin-bottom: 0;
+}
+
+.footer-right p{
+  line-height: 1.3rem;
+}
+
+section.last-footer-sec {
+  height: 3rem;
+  width: 95%;
+  border-top: 1px white solid;
+  padding-top: .5rem;
+}
+
+.last-footer-sec i {
+  float: right;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
